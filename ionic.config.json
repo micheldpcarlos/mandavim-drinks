@@ -1,0 +1,7 @@
+{
+  "name": "champ-drinks",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
