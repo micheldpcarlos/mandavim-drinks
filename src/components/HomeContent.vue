@@ -19,6 +19,7 @@ import {
   IonLoading,
   IonInput,
   IonLabel,
+  alertController,
 } from "@ionic/vue";
 import { _RefFirestore, useFirestore } from "vuefire";
 import {
@@ -146,8 +147,16 @@ const isModalOpen = ref(false);
 const imageFile = ref();
 const imageData = ref();
 
-const onAddRegister = () => {
-  fileInput.value?.click();
+const onAddRegister = async () => {
+  const alert = await alertController.create({
+    header: "Até a próxima!",
+    message: "Registros serão habilitados apenas no próximo role",
+    buttons: ["OK"],
+  });
+
+  await alert.present();
+  return;
+  // fileInput.value?.click();
 };
 
 const onPictureSelected = (event: Event) => {

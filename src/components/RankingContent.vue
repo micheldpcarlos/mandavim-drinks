@@ -13,7 +13,10 @@
       </ion-list-header>
       <ion-item v-for="(item, index) in alcoholRank" :key="item.nome">
         <ion-label
-          >{{ index + 1 }} - {{ item.nome }} - {{ item.total }}ml</ion-label
+          >{{ index + 1 }} - {{ item.nome }} -
+          {{
+            item.total.toLocaleString("en-US", { minimumFractionDigits: 2 })
+          }}ml</ion-label
         >
         <span v-if="item.medal">{{ item.medal }}</span>
       </ion-item>
@@ -28,7 +31,10 @@
       </ion-list-header>
       <ion-item v-for="(item, index) in mililitrosRank" :key="item.nome">
         <ion-label
-          >{{ index + 1 }} - {{ item.nome }} - {{ item.total }}ml</ion-label
+          >{{ index + 1 }} - {{ item.nome }} -
+          {{
+            item.total.toLocaleString("en-US", { minimumFractionDigits: 2 })
+          }}ml</ion-label
         >
         <span v-if="item.medal">{{ item.medal }}</span>
       </ion-item>
@@ -43,13 +49,14 @@
       </ion-list-header>
       <ion-item v-for="(item, index) in vezesRank" :key="item.nome">
         <ion-label
-          >{{ index + 1 }} - {{ item.nome }} - {{ item.total }}</ion-label
+          >{{ index + 1 }} - {{ item.nome }} -
+          {{
+            item.total.toLocaleString("en-US", { minimumFractionDigits: 2 })
+          }}</ion-label
         >
         <span v-if="item.medal">{{ item.medal }}</span>
       </ion-item>
-      <ion-item v-if="!vezesRank.length">
-        Nenhum registro encontrado
-      </ion-item>
+      <ion-item v-if="!vezesRank.length"> Nenhum registro encontrado </ion-item>
     </ion-list>
   </div>
 </template>
