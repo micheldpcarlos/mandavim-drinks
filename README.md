@@ -25,9 +25,9 @@ And it is hosted here: https://manda-vim-drinks.web.app/
 
 ## Screenshots
 
-<img src="https://github.com/micheldpcarlos/mandavim-drinks/assets/29731180/d9cc5dd2-2711-478e-9606-d06219c94a4f" width="33%" style="display: inline"/>
-<img src="https://github.com/micheldpcarlos/mandavim-drinks/assets/29731180/d817735f-cd0b-4bef-a319-639e028be93b" width="33%" style="display: inline"/>
-<img src="https://github.com/micheldpcarlos/mandavim-drinks/assets/29731180/efe71202-d6aa-4015-8dcf-3cf7c6137e60" width="33%" style="display: inline"/>
+<img src="https://github.com/micheldpcarlos/mandavim-drinks/assets/29731180/d9cc5dd2-2711-478e-9606-d06219c94a4f" width="32%" style="display: inline"/>
+<img src="https://github.com/micheldpcarlos/mandavim-drinks/assets/29731180/d817735f-cd0b-4bef-a319-639e028be93b" width="32%" style="display: inline"/>
+<img src="https://github.com/micheldpcarlos/mandavim-drinks/assets/29731180/efe71202-d6aa-4015-8dcf-3cf7c6137e60" width="32%" style="display: inline"/>
 
 
 ## NAQ (Never Asked Question)
