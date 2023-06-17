@@ -12,6 +12,12 @@ Every year I watch the Champions League Final with some friends. We normally ren
 
 And it is hosted here: https://manda-vim-drinks.web.app/
 
+> You may face some errors regarding free tier quota usage like
+> 
+> 402 - Quota has been exceeded for this project.
+> 
+> I'm using the free tier ¯\\_(ツ)_/¯
+
 
 ## Tech Stack
 
